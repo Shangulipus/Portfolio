@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>امیر رحمانی — توسعه‌دهنده سنیور</title>
-  <meta name="description" content="برنامه‌نویس و توسعه‌دهنده سیستم‌های نرم‌افزاری، بازی و مدل‌سازی سه‌بعدی." />
+  <title>Amir Rahmani — Senior Developer</title>
+  <meta name="description" content="امیر رحمانی، برنامه‌نویس، توسعه‌دهنده و طراح سیستم‌های نرم‌افزاری و سه‌بعدی." />
   <style>
     @font-face {
       font-family: 'IRANSansX';
@@ -34,7 +34,6 @@
       background: var(--background);
       color: var(--text);
       line-height: 1.8;
-      -webkit-font-smoothing: antialiased;
       direction: rtl;
       text-align: right;
       background-attachment: fixed;
@@ -51,6 +50,9 @@
       text-align: center;
       margin-top: 40px;
       margin-bottom: 60px;
+    }
+    header h1 {
+      font-weight: normal;
     }
 
     .photo {
@@ -107,28 +109,11 @@
       font-size: 15px;
     }
 
-    .grid-two {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      margin-top: 20px;
-    }
-
-    .skill-list {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 10px;
-      margin-top: 10px;
-    }
-
-    .skill {
-      background: rgba(255,255,255,0.05);
-      padding: 8px 12px;
-      border-radius: 8px;
-      border: 1px solid var(--border);
-      font-size: 14px;
-      color: var(--muted);
-      text-align: center;
+    h3 {
+      color: var(--primary);
+      font-size: 18px;
+      margin-top: 16px;
+      margin-bottom: 6px;
     }
 
     .contact-row {
@@ -141,6 +126,32 @@
       color: var(--primary);
       font-size: 15px;
     }
+.contact-item {
+margin-top: 16px;
+}
+
+
+.contact-item strong {
+color: var(--primary);
+font-size: 15px;
+display: block;
+margin-bottom: 6px;
+}
+
+
+.contact-box {
+background: rgba(255,255,255,0.05);
+border: 1px solid var(--border);
+border-radius: 8px;
+padding: 10px 14px;
+font-size: 15px;
+direction: ltr;
+text-align: left;
+color: var(--text);
+user-select: text;
+}
+
+
 
     footer {
       text-align: center;
@@ -160,64 +171,96 @@
   <div class="container">
     <header>
       <div class="photo"><img src="/Assets/profile.jpg" alt="عکس پروفایل"></div>
-      <h1>امیر رحمانی — توسعه‌دهنده سنیور</h1>
-      <p class="lead">از ۱۳ سالگی با کد سروکله می‌زنم! عاشق ساختن سیستم‌هایی هستم که کارها رو سریع‌تر، ساده‌تر و تمیزتر می‌کنن.</p>
+      <h1>Amir Rahmani — Senior Developer</h1>
+      <p class="lead">از ۱۳ سالگی برنامه‌نویسی رو شروع کردم. هدفمو تعیین می‌کنم و بهش میرسم — چه درست کردن یه بازی موبایلی باشه، ساخت بک‌اند یا طراحی سه‌بعدی، من دیر یا زود بهش میرسم!</p>
     </header>
 
     <main>
       <section id="about">
         <h2>درباره من</h2>
-        <p>من امیرم، کسی که عاشق حل مسئله و ساخت چیزای جدیده. از بازی‌سازی با یونیتی گرفته تا ساخت بک‌اند و طراحی صنعتی با SolidWorks، همیشه دنبال یادگیری و بهتر شدنم.</p>
+        <p>
+          من امیرم، یه توسعه‌دهنده با چند سال تجربه در زمینه نرم‌افزار، بازی و مدل‌سازی سه‌بعدی. همیشه دنبال اینم که چیزهایی بسازم که واقعا مفید و کاربردی باشن. عاشق کارهای چالشی‌ام و وقتی با یه ایده روبه‌رو می‌شم، تا زمانی که اون رو به واقعیت تبدیل نکنم، دست‌بردار نیستم!
+        </p>
       </section>
 
       <section id="what">
-        <h2>چی می‌تونم برات انجام بدم</h2>
-        <p>اگه صاحب کسب‌وکاری هستی و می‌خوای کارات راحت‌تر، دقیق‌تر و خودکار بشن، من می‌تونم برات سیستم‌هایی بسازم که درست همون‌طوری کار کنن که نیاز داری. از نرم‌افزارهای مدیریتی تا ابزارهایی که روند کارتو ساده‌تر می‌کنن — هدفم اینه که کارتو راحت کنم.</p>
+        <h2>چیکار می‌تونم برای شما انجام بدم؟</h2>
+        <p>اگر می‌خوای یک سیستم پیشرفته و اختصاصی برای سازمان یا شرکتت داشته باشی، من می‌تونم کمکت کنم!</p>
+        <p>مثلا چه‌طور سیستم‌هایی؟</p>
 
-        <div class="grid-two">
-          <div>
-            <h3>نرم‌افزارها و سیستم‌های اختصاصی</h3>
-            <p>اگه دنبال یه سیستم اتومات برای کارهات هستی، یا می‌خوای داده‌ها و مشتری‌هاتو بهتر مدیریت کنی، من با ASP.NET Core، Blazor، SQL و MongoDB برات یه راه‌حل مطمئن می‌سازم.</p>
-          </div>
-          <div>
-            <h3>سیستم‌های شبیه‌سازی و بازی</h3>
-            <p>با Unity سیستم‌های تعاملی و شبیه‌سازی می‌سازم تا بتونی ایده‌هات رو واقعی و قابل لمس ببینی.</p>
-          </div>
-          <div>
-            <h3>مدل‌سازی سه‌بعدی و CAD</h3>
-            <p>مدل‌های SolidWorks یا Blender رو به برنامه‌های زنده و قابل نمایش وصل می‌کنم — مناسب برای نمایش، آموزش یا پروژه‌های صنعتی.</p>
-          </div>
-          <div>
-            <h3>بهینه‌سازی و رفع مشکل</h3>
-            <p>سیستم یا برنامه‌ت کند شده؟ من می‌تونم گلوگاه‌های عملکرد رو پیدا و رفع کنم تا نرم و سریع‌تر اجرا بشه.</p>
-          </div>
-        </div>
+        <h3>توسعه وب‌سایت و پلتفرم‌های پیشرفته</h3>
+        <p>
+          خیلی از شرکت‌ها سیستم‌هایی نیاز دارن که با ابزارهای آماده مثل WordPress نمیشه ساخت. من می‌تونم از پایه برات یه سیستم اختصاصی طراحی و برنامه‌نویسی کنم — مخصوص نیازهای کاری خودت. مثل سامانه‌های دولتی، پنل‌های مدیریتی یا پلتفرم‌های خاص.
+        </p>
+
+        <h3>بازی و شبیه‌سازی</h3>
+        <p>
+          من سال‌ها با موتور بازی‌سازی Unity کار کردم — یکی از قوی‌ترین انجین‌های دنیا برای ساخت بازی و سیستم‌های سه‌بعدی. با یونیتی میشه نه فقط بازی، بلکه انواع سیستم‌های شبیه‌سازی، آموزشی یا صنعتی رو ساخت که کاربر بتونه به‌صورت واقعی باهاش تعامل کنه.
+        </p>
+
+        <h3>مدل‌سازی و CAD</h3>
+        <p>
+          مدل‌سازی سه‌بعدی دو نوعه: مدل‌سازی ظاهری که برای طراحی بصری در بازی و انیمیشن استفاده میشه (با ابزارهایی مثل Blender و Substance Painter) و مدل‌سازی صنعتی (CAD) که برای ساخت اشیاء واقعی با نرم‌افزارهایی مثل SolidWorks و AutoCAD استفاده میشه. من تجربه کار با هر دو نوع رو دارم.
+        </p>
       </section>
 
       <section id="skills">
         <h2>مهارت‌ها</h2>
-        <div class="skill-list">
-          <div class="skill">Unity • C# • فیزیک سفارشی</div>
-          <div class="skill">ASP.NET Core • Blazor • Web API</div>
-          <div class="skill">SQL Server • MongoDB • طراحی داده</div>
-          <div class="skill">بهینه‌سازی • پروفایلینگ • Multi-threading</div>
-          <div class="skill">Blender • SolidWorks • مدل‌سازی CAD</div>
-          <div class="skill">بهینه‌سازی مدل سه‌بعدی • تکسچرینگ • UV</div>
-          <div class="skill">HTML • CSS • JS • فرانت‌اند</div>
-          <div class="skill">Git • Visual Studio • کنترل نسخه</div>
-        </div>
+
+        <h3>Unity</h3>
+        <p>یونیتی یه موتور بازی‌سازی قدرتمنده که می‌تونم باهاش هر چیزی از یه بازی ساده موبایلی تا شبیه‌سازهای صنعتی سه‌بعدی رو بسازم. این ابزار اجازه میده محیطی واقعی با فیزیک، نور و صدا خلق کنم.</p>
+
+        <h3>C#</h3>
+        <p>زبان C# قلب اکثر پروژه‌هامه. باهاش منطق بازی‌ها، سیستم‌های بک‌اند و ابزارهای نرم‌افزاری رو پیاده‌سازی می‌کنم. یه زبان قدرتمند و امنه که تقریبا برای هر نوع پروژه‌ای کاربرد داره.</p>
+
+        <h3>Blender</h3>
+        <p>بلندر یه نرم‌افزار متن‌باز برای طراحی و مدل‌سازی سه‌بعدیه. باهاش مدل، انیمیشن، نورپردازی و حتی ویدیو می‌سازم — مخصوصا برای پروژه‌های گرافیکی و بازی.</p>
+
+        <h3>Database (SQL & MongoDB)</h3>
+        <p>هر سیستم نرم‌افزاری به یه پایگاه داده نیاز داره. من با SQL و MongoDB کار می‌کنم تا داده‌ها به‌شکل امن و سریع ذخیره، جستجو و مدیریت بشن.</p>
+
+        <h3>3D Modeling</h3>
+        <p>مدل‌سازی سه‌بعدی به من اجازه میده اشیاء، فضاها و کاراکترها رو برای بازی، انیمیشن یا شبیه‌سازی طراحی کنم — به شکلی که بیننده حس کنه واقعا اون رو لمس می‌کنه.</p>
+
+        <h3>Texturing</h3>
+        <p>تکسچر یعنی پوست مدل. من با ابزارهایی مثل Substance Painter رنگ، جنس و جزئیات سطح مدل‌ها رو طراحی می‌کنم تا طبیعی‌تر به نظر برسن.</p>
+
+        <h3>CAD Design</h3>
+        <p>در طراحی CAD، مدل‌ها طوری ساخته میشن که قابل تولید واقعی باشن. من از SolidWorks برای طراحی قطعات دقیق صنعتی استفاده می‌کنم که بعدا می‌تونن ساخته بشن.</p>
+
+        <h3>Front End (HTML, CSS, JS)</h3>
+        <p>فرانت‌اند همون چیزیه که کاربر روی صفحه می‌بینه. من با HTML، CSS و JavaScript وب‌سایت‌هایی می‌سازم که ظاهر قشنگ و تجربه کاربری خوبی دارن.</p>
+
+        <h3>Video Editing</h3>
+        <p>ادیت ویدیو یکی از کاراییه که برای ساخت تیزر، معرفی پروژه یا محتواهای آموزشی انجام می‌دم. سعی می‌کنم خروجی کار تمیز، حرفه‌ای و تاثیرگذار باشه.</p>
+
+        <h3>Photoshop</h3>
+        <p>با فتوشاپ طرح‌ها، رندرها و رابط‌های کاربری رو طراحی و ویرایش می‌کنم — از طراحی لوگو تا روتوش تصاویر.</p>
       </section>
 
-      <section id="contact">
-        <h2>ارتباط با من</h2>
-        <p>اگه دنبال یه نفر مطمئن برای ساخت یه سیستم اختصاصی یا یه پروژه فنی هستی — باهام در تماس باش.</p>
-        <div class="contact-row">
-          <div><strong>ایمیل:</strong> you@example.com</div>
-          <div><strong>شماره تماس:</strong> +98 (912) 123-4567</div>
-          <div><strong>تلگرام:</strong> @yourusername</div>
-        </div>
-      </section>
-    </main>
+
+<section id="contact">
+<h2>ارتباط با من</h2>
+<p>برای همکاری یا مشاوره در پروژه‌هات، خوشحال میشم با من در تماس باشی.</p>
+<div class="contact-item">
+<strong>ایمیل:</strong>
+<div class="contact-box">amirrahmani3d@gmail.com</div>
+</div>
+<div class="contact-item">
+<strong>شماره تماس:</strong>
+<div class="contact-box">+98 923 106 1206</div>
+</div>
+<div class="contact-item">
+<strong>تلگرام:</strong>
+<div class="contact-box">@AmirRahmaniDev</div>
+</div>
+</section>
+</main>
+
+
+<footer>
+بیاین یه چیز عالی با هم بسازیم.
+</footer>
 
     <footer>
       بیاین یه چیز عالی با هم بسازیم.
