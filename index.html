@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>[Your Name] — Developer & Problem Solver</title>
+  <meta name="description" content="Developer building high-performance systems, custom software, and simulations. Unity, C#, ASP.NET, SolidWorks, Blender." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --muted:#94a3b8; --accent:#7c3aed; --glass: rgba(255,255,255,0.03);
+      --max-width:980px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;background:linear-gradient(180deg,var(--bg),#071021);color:#e6eef8;line-height:1.6}
+    .wrap{max-width:var(--max-width);margin:60px auto;padding:40px}
+    header{display:flex;align-items:flex-start;gap:24px;margin-bottom:48px}
+    .photo{width:96px;height:96px;border-radius:14px;background:linear-gradient(135deg,var(--accent),#2dd4bf);display:flex;align-items:center;justify-content:center;color:#041025;font-weight:700;font-size:28px}
+    h1{margin:0;font-size:32px}
+    p.lead{margin:12px 0 0;color:var(--muted);font-size:16px}
+    .cta{margin-top:20px;display:flex;gap:14px}
+    .btn{background:var(--accent);color:white;padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:600;font-size:15px}
+    .btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06)}
+    main{display:grid;grid-template-columns:1fr;gap:36px;margin-top:40px}
+    .card{background:linear-gradient(180deg,var(--card),rgba(10,14,20,0.6));padding:28px;border-radius:16px;box-shadow:0 6px 18px rgba(2,6,23,0.6);}
+    .tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+    .tag{padding:8px 12px;border-radius:999px;background:var(--glass);color:var(--muted);font-size:14px}
+    h2{margin:0 0 14px 0;font-size:22px}
+    footer{margin-top:24px;color:var(--muted);font-size:13px;text-align:center}
+    .grid-two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+    @media(max-width:720px){.grid-two{grid-template-columns:1fr}.photo{width:72px;height:72px;font-size:20px}}
+    .skill-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+    .skill{font-size:14px;color:var(--muted)}
+    .contact-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    .muted{color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="photo">YN</div>
+      <div>
+        <h1>Amir Rahmani — Developer & Problem Solver</h1>
+        <p class="lead">I build high-performance systems, custom software, and simulations. I’ve been programming since <strong>age 13</strong>.</p>
+        <div class="cta">
+          <a class="btn ghost" href="#contact">Get in touch</a>
+        </div>
+        <div style="margin-top:14px;" class="muted">Based in [City] • Available for freelance & contract work</div>
+      </div>
+    </header>
+
+    <main>
+      <section class="card" id="about">
+        <h2>About me</h2>
+        <p class="muted">I’m a practical problem-solver who turns complex technical challenges into efficient, maintainable solutions. My background spans game development, backend systems, CAD/3D modeling, and performance engineering. I take projects from concept to fully working systems.</p>
+
+        <div style="margin-top:20px" class="grid-two">
+          <div>
+            <h3 style="margin:0">Core focus</h3>
+            <div class="tags">
+              <span class="tag">Unity / C#</span>
+              <span class="tag">ASP.NET Core</span>
+              <span class="tag">System Architecture</span>
+              <span class="tag">Optimization</span>
+            </div>
+          </div>
+          <div>
+            <h3 style="margin:0">Tools I use</h3>
+            <div class="tags">
+              <span class="tag">Visual Studio</span>
+              <span class="tag">Blender</span>
+              <span class="tag">SolidWorks</span>
+              <span class="tag">SQL / MongoDB</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card" id="what">
+        <h2>What I can do for you</h2>
+        <p class="muted">Whether you’re a tech-savvy company or someone with an idea but no technical background, I can help you bring it to life. You don’t need to know the code — I’ll handle that part for you and explain everything in simple, understandable terms. I focus on results and clarity, so you always know what’s happening and why.</p>
+
+        <div style="margin-top:28px" class="grid-two">
+          <div>
+            <h3>Custom Software & Backends</h3>
+            <p class="muted">Need a system that automates tasks, manages data, or simplifies your workflow? I design and develop custom software and online tools using <strong>ASP.NET Core</strong>, Blazor, SQL Server, and MongoDB — making your business faster, smarter, and easier to run.</p>
+          </div>
+          <div>
+            <h3>Simulation & Game Systems</h3>
+            <p class="muted">Want an interactive visualization or a simulation tool for your business or project? I use <strong>Unity</strong> to create realistic, efficient systems that make your ideas tangible — from physics-driven experiences to product demos.</p>
+          </div>
+        </div>
+
+        <div style="margin-top:28px" class="grid-two">
+          <div>
+            <h3>3D & CAD Integration</h3>
+            <p class="muted">If you already have designs or models in SolidWorks or Blender, I can turn them into interactive software, 3D viewers, or product previews. Perfect for engineering demos, marketing tools, or educational apps.</p>
+          </div>
+          <div>
+            <h3>Optimization & Troubleshooting</h3>
+            <p class="muted">If something in your system or app feels slow, inefficient, or confusing — I’ll find the problem and fix it. I specialize in diagnosing performance issues and making your software smoother and faster.</p>
+          </div>
+        </div>
+
+        <div style="margin-top:28px">
+          <h3>How I work</h3>
+          <p class="muted">You tell me what you want to achieve — I translate it into a technical plan. I keep communication simple and direct, with updates you can understand. My goal is to make technology feel effortless for you while delivering professional, reliable results.</p>
+        </div>
+      </section>
+
+      <section class="card" id="skills">
+        <h2>Skills</h2>
+        <div class="skill-list" style="margin-top:12px">
+          <div class="skill">Unity • C# • Custom Physics</div>
+          <div class="skill">ASP.NET Core • Blazor • Web APIs</div>
+          <div class="skill">SQL Server • MongoDB • Data Modeling</div>
+          <div class="skill">Optimization • Profiling • Multi-threading</div>
+          <div class="skill">Blender • SolidWorks • CAD Modeling</div>
+          <div class="skill">3D Asset Optimization • Texturing • UVs</div>
+          <div class="skill">HTML • CSS • Basic JS • Front-end Integration</div>
+          <div class="skill">Git • Visual Studio • Version Control</div>
+        </div>
+      </section>
+
+      <section class="card" id="contact">
+        <h2>Contact</h2>
+        <p class="muted">If you’re building something that needs a technical lead, a high-performance system, or a custom backend — I’d love to hear about it.</p>
+        <div style="margin-top:20px" class="contact-row">
+          <div style="flex:1">
+            <strong>Email</strong>
+            <div class="muted">you@example.com</div>
+          </div>
+          <div style="flex:1">
+            <strong>Phone</strong>
+            <div class="muted">+1 (555) 123-4567</div>
+          </div>
+          <div style="flex:1">
+            <strong>Telegram</strong>
+            <div class="muted">@yourusername</div>
+          </div>
+        </div>
+
+        <footer>
+          <div class="muted">Let’s build something remarkable together.</div>
+        </footer>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
