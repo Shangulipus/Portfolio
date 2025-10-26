@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Amir Rahmani — Senior Developer</title>
+  <link rel="icon" href="/Assets/FavIcon.jpg">
+  <meta name="description" content="Amir Rahmani — Software Developer, Engineer, and 3D System Designer." />
+  <style>
+    @font-face {
+      font-family: 'IRANSansX';
+      src: url('/Assets/IRANSansXMedium.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    :root {
+      --primary: #90caf9;
+      --background: linear-gradient(180deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+      --card: rgba(255, 255, 255, 0.08);
+      --text: #ffffff;
+      --muted: #b0bec5;
+      --border: rgba(255, 255, 255, 0.15);
+      --max-width: 960px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'IRANSansX', sans-serif;
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.8;
+      direction: ltr;
+      text-align: left;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    header {
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 60px;
+    }
+    header h1 {
+      font-weight: normal;
+    }
+
+    .photo {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto 20px;
+      border: 3px solid var(--primary);
+      box-shadow: 0 0 20px rgba(144,202,249,0.3);
+    }
+
+    .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    p.lead {
+      color: var(--muted);
+      font-size: 16px;
+      margin-top: 8px;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+
+    section {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 28px;
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+      font-size: 22px;
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+
+    p {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    h3 {
+      color: var(--primary);
+      font-size: 18px;
+      margin-top: 16px;
+      margin-bottom: 6px;
+    }
+
+    .contact-item {
+      margin-top: 16px;
+    }
+
+    .contact-item strong {
+      color: var(--primary);
+      font-size: 15px;
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    .contact-box {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-size: 15px;
+      text-align: left;
+      color: var(--text);
+      user-select: text;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 24px; }
+      section { padding: 20px; }
+      .photo { width: 110px; height: 110px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="photo"><img src="/Assets/profile.jpg" alt="Profile Photo"></div>
+      <h1>Amir Rahmani — Senior Developer</h1>
+      <p class="lead">
+        I started programming when I was 13. I set my goals and reach them — whether it’s building a mobile game, developing a backend system, or designing something in 3D, I’ll get there sooner or later!
+      </p>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I’m Amir, a developer with several years of experience in software, game development, and 3D modeling. I always aim to create things that are useful and meaningful. I love challenging projects, and once I get an idea, I won’t stop until I make it real.
+        </p>
+      </section>
+
+      <section id="what">
+        <h2>What Can I Do for You?</h2>
+        <p>If you want a custom and advanced system for your company or organization, I can help you make it happen.</p>
+        <p>What kind of systems, for example?</p>
+
+        <h3>Web and Advanced Platform Development</h3>
+        <p>
+          Many businesses need systems that can’t be built with off-the-shelf tools like WordPress. I can design and code a fully custom system from the ground up — tailored exactly to your needs. For example, government systems, management panels, or special-purpose platforms.
+        </p>
+
+        <h3>Game Development & Simulation</h3>
+        <p>
+          I’ve worked with the Unity engine for years — one of the world’s most powerful tools for creating games and 3D systems. With Unity, you can build not just games, but also training, simulation, and industrial systems that users can interact with in real time.
+        </p>
+
+        <h3>3D Modeling & CAD</h3>
+        <p>
+          There are two main types of 3D modeling: visual modeling (for games and animations, using tools like Blender and Substance Painter) and industrial modeling (CAD), which is used to design real-world objects in software like SolidWorks and AutoCAD. I have experience in both.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+
+        <h3>Unity</h3>
+        <p>Unity is a powerful game engine that I use to create anything from simple mobile games to complex industrial simulations with realistic physics, lighting, and sound.</p>
+
+        <h3>C#</h3>
+        <p>C# is at the heart of most of my projects. I use it to implement game logic, backend systems, and software tools. It’s a secure, versatile, and modern language for all kinds of development.</p>
+
+        <h3>Blender</h3>
+        <p>Blender is an open-source 3D modeling and animation tool. I use it to create models, animations, lighting, and even videos — especially for game and graphic projects.</p>
+
+        <h3>Database (SQL & MongoDB)</h3>
+        <p>Every software system needs a database. I work with SQL and MongoDB to store, search, and manage data securely and efficiently.</p>
+
+        <h3>3D Modeling</h3>
+        <p>3D modeling allows me to design objects, environments, and characters for games, animation, or simulations — in a way that feels real and tangible.</p>
+
+        <h3>Texturing</h3>
+        <p>Texturing gives models their surface look. Using tools like Substance Painter, I create materials, colors, and fine surface details to make models look realistic.</p>
+
+        <h3>CAD Design</h3>
+        <p>In CAD design, models are built to be physically manufacturable. I use SolidWorks to create precise industrial components that can later be fabricated.</p>
+
+        <h3>Front-End (HTML, CSS, JS)</h3>
+        <p>The front end is what users see on the screen. Using HTML, CSS, and JavaScript, I create visually appealing websites with great user experience.</p>
+
+        <h3>Video Editing</h3>
+        <p>I edit videos for trailers, project showcases, and educational content — always aiming for a clean, professional, and impactful result.</p>
+
+        <h3>Photoshop</h3>
+        <p>I use Photoshop to design and edit UI layouts, renders, and visuals — from logos to photo retouching.</p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>I’d be happy to collaborate or provide consultation for your projects. Feel free to reach out!</p>
+
+        <div class="contact-item">
+          <strong>Email:</strong>
+          <div class="contact-box">amirrahmani3d@gmail.com</div>
+        </div>
+
+        <div class="contact-item">
+          <strong>Phone:</strong>
+          <div class="contact-box">+98 923 106 1206</div>
+        </div>
+
+        <div class="contact-item">
+          <strong>Telegram:</strong>
+          <div class="contact-box">@AmirRahmaniDev</div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Let’s build something amazing together.
+    </footer>
+  </div>
+</body>
+</html>
